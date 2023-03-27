@@ -1,0 +1,43 @@
+body{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.calcContainer{
+    background-color: black;
+    padding: 50px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border-radius: 100px;
+}
+.answerBar{
+    width: 60vw;
+    height: 100px;
+    background-color: white;
+    font-size: 70px;
+    display: flex;
+    flex-direction: column;
+    padding: 50px;
+}
+.numbers{
+    width: 60vw;
+    display: flex;
+    flex-direction: column;
+    align-items:center;
+}
+.numberRow{
+   margin: 50px;
+   display: flex;
+}
+.calcButton{
+    background-color: white;
+    padding: 40px 70px;
+    border-radius: 100px;
+    font-size: 70px;
+    margin: 25px;
+    cursor: pointer;
+}
+.previousOperand{
+    font-size: 30px;
+    color:rgb(232, 53, 113);
+}
