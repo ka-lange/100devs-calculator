@@ -10,11 +10,14 @@ body{
     align-items: center;
     border-radius: 100px;
 }
-
 .answerBar{
     width: 60vw;
     height: 100px;
     background-color: white;
+    font-size: 70px;
+    display: flex;
+    flex-direction: column;
+    padding: 50px;
 }
 .numbers{
     width: 60vw;
@@ -25,23 +28,16 @@ body{
 .numberRow{
    margin: 50px;
    display: flex;
-   
 }
 .calcButton{
     background-color: white;
-    padding: 30px 50px;
+    padding: 40px 70px;
     border-radius: 100px;
     font-size: 50px;
     margin: 25px;
     cursor: pointer;
 }
-.answerBar{
-    font-size: 70px;
-    display: flex;
-    flex-direction: column;
-    padding: 50px;
-}
 .previousOperand{
     font-size: 30px;
-    color:gray;
+    color:rgb(232, 53, 113);
 }
